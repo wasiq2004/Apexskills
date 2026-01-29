@@ -45,7 +45,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="font-black text-slate-900 uppercase tracking-widest text-[10px] mb-1">Email Support</h4>
-                      <p className="text-slate-500 font-bold">support@ediglobe.com</p>
+                      <p className="text-slate-500 font-bold">support@apexskillstechnologies.com</p>
                     </div>
                   </div>
                 </Reveal>
@@ -56,7 +56,7 @@ const Contact: React.FC = () => {
                     </div>
                     <div>
                       <h4 className="font-black text-slate-900 uppercase tracking-widest text-[10px] mb-1">Call Us Now</h4>
-                      <p className="text-slate-500 font-bold">+91 80882 79615</p>
+                      <p className="text-slate-500 font-bold">+91 XXXXXXXXXX</p>
                       <p className="text-[10px] text-slate-400 font-bold uppercase tracking-widest mt-1">Mon-Sat, 12pm-7pm IST</p>
                     </div>
                   </div>
@@ -69,12 +69,12 @@ const Contact: React.FC = () => {
                     <div className="space-y-4">
                       <div>
                         <h4 className="font-black text-slate-900 uppercase tracking-widest text-[10px] mb-1">Head Office</h4>
-                        <p className="text-slate-500 text-sm leading-relaxed font-medium">HSR Layout, Aadishwar Supermart Building, Singasandra, Bengaluru, 560068</p>
+                        <p className="text-slate-500 text-sm leading-relaxed font-medium">Bangalore Karnataka</p>
                       </div>
-                      <div>
+                      {/* <div>
                         <h4 className="font-black text-slate-900 uppercase tracking-widest text-[10px] mb-1">Branch Office</h4>
                         <p className="text-slate-500 text-sm leading-relaxed font-medium">Sector 91, Sahibzada Ajit Singh Nagar, Punjab 140307</p>
-                      </div>
+                      </div> */}
                     </div>
                   </div>
                 </Reveal>
@@ -106,13 +106,13 @@ const Contact: React.FC = () => {
         {/* Map Placeholder */}
         <Reveal delay={0.8} y={50}>
           <div className="mt-32 rounded-[4rem] overflow-hidden shadow-2xl border-[16px] border-slate-50 h-[550px] relative group">
-             <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000" alt="Map Location" />
-             <div className="absolute inset-0 bg-indigo-900/10 group-hover:bg-transparent transition-all"></div>
-             <div className="absolute bottom-12 left-12 bg-white p-12 rounded-[3rem] shadow-3xl max-w-md">
-                <h4 className="text-3xl font-black text-slate-950 mb-4">Visit Our Hubs</h4>
-                <p className="text-slate-500 font-medium leading-relaxed mb-8">Feel free to drop by our main campus for a campus tour and personalized career guidance sessions.</p>
-                <button className="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl hover:bg-slate-950 transition-all shadow-xl shadow-indigo-100 uppercase tracking-widest text-xs">Get Directions</button>
-             </div>
+            <img src="https://images.unsplash.com/photo-1526772662000-3f88f10405ff?auto=format&fit=crop&q=80&w=1200" className="w-full h-full object-cover grayscale opacity-80 group-hover:grayscale-0 group-hover:opacity-100 transition-all duration-1000" alt="Map Location" />
+            <div className="absolute inset-0 bg-indigo-900/10 group-hover:bg-transparent transition-all"></div>
+            <div className="absolute bottom-12 left-12 bg-white p-12 rounded-[3rem] shadow-3xl max-w-md">
+              <h4 className="text-3xl font-black text-slate-950 mb-4">Visit Our Hubs</h4>
+              <p className="text-slate-500 font-medium leading-relaxed mb-8">Feel free to drop by our main campus for a campus tour and personalized career guidance sessions.</p>
+              <button className="w-full py-5 bg-indigo-600 text-white font-black rounded-2xl hover:bg-slate-950 transition-all shadow-xl shadow-indigo-100 uppercase tracking-widest text-xs">Get Directions</button>
+            </div>
           </div>
         </Reveal>
       </div>
