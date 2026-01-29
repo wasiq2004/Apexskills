@@ -31,7 +31,7 @@ const Header: React.FC = () => {
   ];
 
   return (
-    <motion.header 
+    <motion.header
       initial={{ y: -100 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
@@ -40,7 +40,7 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center space-x-3 group">
-            <motion.div 
+            <motion.div
               whileHover={{ rotate: 15, scale: 1.1 }}
               className="bg-indigo-600 p-2.5 rounded-xl shadow-lg shadow-indigo-500/30"
             >
@@ -61,7 +61,7 @@ const Header: React.FC = () => {
               >
                 {item.name}
                 {location.pathname === item.path && (
-                  <motion.div 
+                  <motion.div
                     layoutId="activeNav"
                     className="absolute -bottom-1 left-0 right-0 h-0.5 bg-indigo-600 rounded-full"
                   />
@@ -71,7 +71,7 @@ const Header: React.FC = () => {
             <motion.a
               whileHover={{ y: -2 }}
               whileTap={{ scale: 0.95 }}
-              href="https://learnn.edmingle.com"
+              href="404 error"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-2.5 rounded-xl bg-slate-900 text-white text-sm font-bold shadow-xl shadow-slate-200 hover:bg-indigo-600 transition-all"
@@ -96,7 +96,7 @@ const Header: React.FC = () => {
       {/* Mobile Nav */}
       <AnimatePresence>
         {isOpen && (
-          <motion.div 
+          <motion.div
             initial={{ height: 0, opacity: 0 }}
             animate={{ height: "auto", opacity: 1 }}
             exit={{ height: 0, opacity: 0 }}
@@ -113,7 +113,7 @@ const Header: React.FC = () => {
                 </Link>
               ))}
               <a
-                href="https://learnn.edmingle.com"
+                href="404 error"
                 className="block w-full text-center mt-6 px-6 py-4 rounded-xl bg-indigo-600 text-white font-extrabold hover:bg-indigo-700"
               >
                 LMS Login
